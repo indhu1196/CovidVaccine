@@ -33,7 +33,8 @@ $(document).ready(function(){
     $("#phaseName").text(trialphase[34]);
     $("#phase1liner").empty();
     $("#phaseDesc1").text("Phase 0 involves exploratory, first-in-human (FIH) trials that are run according to FDA guidelines. Also called human microdose studies, they have single sub-therapeutic doses given to 10 to 15 subjects and yield pharmacokinetic data or help with imaging specific targets without introducing pharmacological effects. Pharmaceutical companies perform Phase 0 studies to decide which of their drug candidates has the best pharmacokinetic parameters in humans.");
-    $("#phaseDesc2").empty()
+    $("#phaseDesc2").empty();
+    $("#arrow2").css("color","#fff");
 
     $(".li-item").click(function() {
         var id = this.id.split(/\s*\-\s*/g);
@@ -185,7 +186,7 @@ $(document).ready(function(){
         });
     }
 
-    move(82);
+    move(31.5);
     function move(width) {
         var elem = document.getElementById("myBar");
         elem.style.width = width + "%";
