@@ -22,11 +22,16 @@
 }
 #main-head {
     font-family: 'Playfair Display', serif;
-    font-size: 33px;
-    line-height: 40px;
-    font-weight: 700;
+    font-size: 37px;
+    line-height: 47px;
+    font-weight: 400;
     color: #000000;
     margin: 0 0 10px 0;
+    text-align: center;
+}
+#intro-line {
+    text-align: center; 
+    padding: 0 12%;
 }
 /* #lihead {
     font-family: 'Rubik', sans-serif;
@@ -324,8 +329,8 @@
         line-height: 38px;
     }
     #intro-line {
-        text-align: center; 
-        padding: 0 5px;
+/*         text-align: center;  */
+        padding: 0 6%;
     }
     #lihead, .map-content p {
         font-size: 14px;
