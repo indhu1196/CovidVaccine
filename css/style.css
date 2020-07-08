@@ -279,19 +279,24 @@
     #vac-li {
         padding: 0 0 0 16px !important;
         list-style: disc;
+        margin: 0;
     }
     .map-content {
         width: 100%;
+    }
+    #vac-li, #name, #sub-tab div {
+       border-bottom: 1px solid #717171;
     }
     #overall-wrapper {
         padding: 10px 3%;
     }
     #map-wrapper {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: flex-start;
     }
     #main-wrapper {
         flex-direction: column;
+/*         margin-top: 5px; */
     }
     #left-content {
         width: 100%;
@@ -305,10 +310,13 @@
         font-size: 17px;
         line-height: 28px;
     }
-    #lihead {
+    #lihead, .map-content p {
         font-size: 14px;
         line-height: 16px;
-        margin-top: 10px;
+        margin: 0px;
+    }
+    .map-content p {
+        margin-top: 10px 0;
     }
     #can-li {
         margin-top: 5px;
