@@ -297,6 +297,9 @@
     #vac-li, #name, #sub-tab div {
        border-bottom: 1px solid #717171;
     }
+    #name, #sub-tab div {
+       padding-bottom: 8px !important;
+    }
     #overall-wrapper {
         padding: 10px 3%;
     }
