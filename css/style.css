@@ -327,6 +327,17 @@
         font-size: 12px;
         line-height: 18px;
     }
+    #vac-li li {
+        list-style-type: none;
+        position: relative;
+        }
+    #vac-li li:before {
+      content: "\25BA \0020";
+      font-size: 6px;
+      position: absolute;
+      top: 5px;
+      left: -10px;
+    }
     #mobselect {
         display: block;
     } 
