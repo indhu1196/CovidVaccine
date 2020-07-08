@@ -141,7 +141,7 @@ function createDropdown(statenames){
             return t;
         })
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    $('#conid').mobileSelect({				
+    $('.countrylist').mobileSelect({				
         onClose: function(){
             showlist();
         }
