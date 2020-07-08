@@ -125,12 +125,13 @@ function showlist(){
 }
 
 function createDropdown(statenames){
+    var chosenCountry = "India";
 
     var fArr = statenames.filter(function(e) { return e !== 'xx' })
 
     var list = d3.select(".countrylist")
 
-    list.selectAll('.countryname')
+    var options = list.selectAll('.countryname')
         .data(fArr).enter()
         .append("option")
         .attr("class","countryname")
@@ -140,6 +141,7 @@ function createDropdown(statenames){
         .html(function(t){
             return t;
         })
+        options.property("selected", function(d){return d === chosenCountry});
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     $('.countrylist').mobileSelect({				
         onClose: function(){
